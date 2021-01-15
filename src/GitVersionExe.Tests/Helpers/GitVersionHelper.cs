@@ -51,6 +51,7 @@ namespace GitVersionExe.Tests
                 { Jenkins.EnvironmentVariableName, null },
                 { AzurePipelines.EnvironmentVariableName, null },
                 { GitHubActions.EnvironmentVariableName, null },
+                { SpaceAutomation.EnvironmentVariableName, null },
             };
 
             foreach (var environment in environments)
